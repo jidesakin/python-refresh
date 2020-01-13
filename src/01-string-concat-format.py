@@ -6,7 +6,7 @@ for name in names:
     statement = 'Hello dear ' + name
     print(statement)
 
-location_of_files = '/Users/babajide.owosakin/myspace/python-refresh'
+location_of_files = '/Users/babajide.owosakin/myspace/python-refresh/src'
 file_name = 'filename.txt'
 
 with open(os.path.join(location_of_files, file_name)) as f:
